@@ -35,7 +35,7 @@ int WriteFile(string fname, map<string, int> m) {
 int main()
 {
     int kmer_len = 5;
-    string input_file = "../data/hg38.fa";
+    string input_file = "SARS-CoV-2.fasta";
     string output_file = "5mers_from_cpp.json";
 
     map<string, int> kmer_dict;

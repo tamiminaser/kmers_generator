@@ -1,7 +1,7 @@
 import json
 
 kmer_len = 5
-input_file = "../data/hg38.fa"
+input_file = "SARS-CoV-2.fasta"
 output_file = "5mers_from_python.json"
 
 kmer_dict = dict()
